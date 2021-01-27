@@ -1,0 +1,52 @@
+.promo
+    min-height: 590px
+    background-color: $gray-bg-color
+    &-content
+        display: flex
+        justify-content: space-between
+        align-items: center
+        flex-wrap: wrap
+        &__img
+            margin-top: 50px
+    &-items
+        &__title
+            font-size: 41px;
+            color: $text-color
+            line-height: 1.341;
+            text-align: left;
+            +bold
+        &__subtitle
+            font-size: 20px;
+            color: $text-color
+            margin-top: 27px
+        &-adv
+            display: flex
+            flex-direction: column
+            margin-top: 30px
+            &__items
+                display: flex
+                align-items: center
+                margin-top: 30px
+                .adv-text
+                    margin-left: 30px
+                    font-size: 14px
+                    color: $text-color
+                    line-height: 1.714
+
+@media (max-width: 768px)
+    .promo-items__title
+        margin-top: 45px
+        font-size: 24px
+        color: rgb(51, 51, 51)
+        line-height: 1.2
+        text-align: left
+    .promo-items__subtitle
+        margin-top: 10px
+        font-size: 16px
+        color: rgb(51, 51, 51)
+        line-height: 1.2
+    .adv-text
+        margin-left: 15px
+    
+
+
