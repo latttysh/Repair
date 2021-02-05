@@ -354,7 +354,7 @@ img {
 .card {
   text-align: center;
   border: 1px solid #e8e8e8;
-  margin-bottom: 162px;
+  margin-bottom: 62px;
 }
 
 .card:hover {
@@ -479,6 +479,9 @@ img {
 }
 
 @media (max-width: 768px) {
+  .card:last-child {
+    margin-bottom: 75px;
+  }
   .specialist-items {
     display: flex;
     flex-direction: column;
@@ -491,4 +494,18 @@ img {
 }
 
 /* Иморт стилей orange секции */
+.orange {
+  background-color: #ffd200;
+}
+
+.orange__title {
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .orange__title {
+    font-size: 18px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
