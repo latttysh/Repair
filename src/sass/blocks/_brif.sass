@@ -1,0 +1,37 @@
+.brif
+    &-block
+        display: flex
+    &__interview
+        flex-basis: 50%
+    &__form
+        flex-basis: 50%
+.interview
+    padding-right: 70px 
+    &__title
+        margin-bottom: 50px
+        font-style: 22px
+        +bold
+    &__subtitle
+        font-style: 16px
+        display: block
+        margin-bottom: 94px
+    &-list
+        list-style: none
+        padding: 0
+        &__item
+            +bold
+            display: flex
+            align-items: center
+            margin-bottom: 25px
+        &__counter
+            display: inline-block
+            text-align: center
+            line-height: 35px
+            width: 35px
+            height: 35px
+            border: 2px solid $text-color
+            margin-right: 30px
+            border-radius: 50%
+            font-size: 14px
+        &__text
+            max-width: 400px

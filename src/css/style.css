@@ -508,4 +508,63 @@ img {
     font-size: 18px;
   }
 }
+
+/* Иморт стилей brif секции */
+.brif-block {
+  display: flex;
+}
+
+.brif__interview {
+  flex-basis: 50%;
+}
+
+.brif__form {
+  flex-basis: 50%;
+}
+
+.interview {
+  padding-right: 70px;
+}
+
+.interview__title {
+  margin-bottom: 50px;
+  font-style: 22px;
+  font-family: 'Museo Sans bold', sans-serif;
+  font-weight: 700;
+}
+
+.interview__subtitle {
+  font-style: 16px;
+  display: block;
+  margin-bottom: 94px;
+}
+
+.interview-list {
+  list-style: none;
+  padding: 0;
+}
+
+.interview-list__item {
+  font-family: 'Museo Sans bold', sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.interview-list__counter {
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  width: 35px;
+  height: 35px;
+  border: 2px solid #333333;
+  margin-right: 30px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.interview-list__text {
+  max-width: 400px;
+}
 /*# sourceMappingURL=style.css.map */

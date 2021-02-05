@@ -11,7 +11,8 @@
 .card
     text-align: center
     border: 1px solid $border-card
-    margin-bottom: 162px
+    margin-bottom: 62px
+
     &:hover
         box-shadow: 0 20px 25px rgba(0,0,0, 0.1)
         transition: 0.4s
@@ -98,6 +99,9 @@
         font-size: 14px
         +bold
 @media (max-width: 768px)
+    .card
+        &:last-child
+            margin-bottom: 75px
     .specialist
         &-items
             display: flex
